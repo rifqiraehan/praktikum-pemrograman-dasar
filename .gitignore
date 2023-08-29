@@ -1,7 +1,0 @@
-group-generator.c
-group-generator.exe
-*.exe
-**/exe
-Praktikum 1/**/*.exe
-Praktikum 2/**/*.exe
-Praktikum 3/**/*.exe
