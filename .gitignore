@@ -1,3 +1,4 @@
 group-generator.c
 group-generator.exe
 *.exe
+**/exe
