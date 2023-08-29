@@ -13,6 +13,6 @@ int main(){
     printf("a / b * b = %.2f\n\n", hasil2);
     printf("c / d * d = %.2f\n\n", hasil3);
     printf("-a = %.2f\n", -a);
-
+    
     return 0;
 }

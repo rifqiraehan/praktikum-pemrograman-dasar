@@ -2,7 +2,7 @@
 
 int main(){
     float x;
-    printf("Masukkan nilai pecahan yang akan ditampilkan: \n");
+    printf("Masukkan nilai pecahan yang akan ditampilkan: ");
     scanf("%f", &x);
 
     printf("format e => %e\n", x);

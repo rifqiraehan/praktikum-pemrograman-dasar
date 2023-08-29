@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <conio.h>
 
 int main(){
     float x, y, z, xpow, ypow;
@@ -12,7 +13,6 @@ int main(){
 
     ypow = pow(y, 2);
     z = (float) (2 * ypow + 5 * xpow) / (9 * y);
-
 
     printf("Didapatkan nilai y = %.0f dan nilai z = %f\n", y, z);
 
