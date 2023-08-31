@@ -15,7 +15,7 @@ int main(){
     printf("Nilai y dari y -= x adalah = %d\n", y-=x);
     printf("Nilai y dari y %%= x adalah = %d\n", y%=x);
 
-    printf("\nNilai y dari y*=(a + b) adalah = %d\n", y*(a+b));
+    printf("\nNilai y dari y*=(a + b) adalah = %d\n", y*=(a+b));
     printf("Nilai y dari y/=(a - b) adalah = %d\n", y/=(a-b));
     printf("Nilai y dari y+=(a %% b) adalah = %d\n", y+=(a%b));
     printf("Nilai y dari y-=(a / b) adalah = %d\n", y-=(a/b));
