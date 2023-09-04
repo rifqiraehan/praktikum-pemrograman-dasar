@@ -1,20 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int a, b, c, d,
-    A, B, C, D, E;
+    int a, b, c, d, A, B, C, D, E;
 
-    printf("Masukkan Nilai a: ");
-    scanf("%d", &a);
-
-    printf("Masukkan Nilai b: ");
-    scanf("%d", &b);
-
-    printf("Masukkan Nilai c: ");
-    scanf("%d", &c);
-
-    printf("Masukkan Nilai d: ");
-    scanf("%d", &d);
+    printf("Masukkan Nilai a: "); scanf("%d", &a);
+    printf("Masukkan Nilai b: "); scanf("%d", &b);
+    printf("Masukkan Nilai c: "); scanf("%d", &c);
+    printf("Masukkan Nilai d: "); scanf("%d", &d);
 
     A = (a > b) && (c < d) || (a == b);
     B = (a == b) || (c == d) && (a < b);

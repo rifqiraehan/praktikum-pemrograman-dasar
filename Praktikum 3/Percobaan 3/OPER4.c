@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Terdapat kesalahan pada perhitungan
 int main(){
     int a, b, x, y;
 
