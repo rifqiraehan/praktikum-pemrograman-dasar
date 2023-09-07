@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int number, isGenap;
+    int number;
 
     printf("Masukkan bilangan: ");
     scanf("%d", &number);
