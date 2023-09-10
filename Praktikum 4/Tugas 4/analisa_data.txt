@@ -1,0 +1,11 @@
+Analisa Data:
+Menurut analisa saya dari pengerjaan tugas di atas sebagai berikut:
+Pada Kode Program Tugas 1, yaitu menentukan suatu bilangan adalah genap atau ganjil digunakan suatu percabangan yang dimana jika bilangan yang dimasukkan pengguna habis dibagi dua maka bilangan tersebut adalah bilangan genap, jika tidak maka bilangan tersebut adalah bilangan ganjil.
+
+Pada Kode Program Tugas 2, yaitu menentukan suatu karakter yang dimasukkan oleh pengguna termasuk dalam kelompok tertentu digunakan percabangan dengan kondisi yang di dalamnya menggunakan operator logika &&. Operator logika && digunakan untuk menggabungkan dua kondisi yang akan menghasilkan nilai benar hanya jika semua kondisi yang digabungkan juga benar.
+
+Pada Kode Program Tugas 3, yaitu membuat kalkulator sederhana digunakan perulangan tak terbatas menggunakan label ‘ulang’ untuk mengulangi proses perhitungan. Setiap iterasi perulangan meminta pengguna untuk memasukkan operand dan operator yang kemudian akan dilakukan proses operasi berdasarkan operator yang dimasukkan. Hasil perhitungan disimpan dalam accumulator. Program dapat dihentikan dengan memasukkan operator E.
+
+Pada Kode Program Tugas 4, yaitu menentukan suatu tahun adalah tahun kabisat atau tidak, digunakan suatu percabangan yang dimana jika tahun tersebut habis dibagi empat maka tahun tersebut adalah tahun kabisat. Di dalam percabangan tersebut, terdapat percabangan bersarang yaitu percabangan yang menentukan tahun tersebut dimulai dari tahun 1900 s/d 2005. Jika tahun yang dimasukkan termasuk ke dalam jangkauan tahun, maka program akan menentukan tahun tersebut kabisat atau tidak.
+
+Pada Kode Program Tugas 5, yaitu menghitung determinan dan mencari nilai dari akar-akar persamaan kuadrat, program meminta pengguna untuk memasukkan nilai A, B, dan C yang nantinya akan dihitung nilai determinannya dengan rumus yang ditentukan. Kemudian, program akan menghitung nilai akar-akar persamaan kuadratnya dengan menggunakan rumus yang berdasarkan nilai determinan apakah bernilai D > 0 atau D < 0 atau D = 0. Hasil dari persamaan yang memiliki nilai determinan (D) kurang dari nol (D < 0) akan selalu menghasilkan akar-akar imajiner yang akan diwakili sebagai hasil yang tidak terdefinisi atau undefined seperti -nan(ind).
