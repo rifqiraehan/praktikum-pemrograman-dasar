@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main(){
+z main(){
     char c;
 
     printf("Masukkan suatu karakter: "); scanf("%c", &c);
