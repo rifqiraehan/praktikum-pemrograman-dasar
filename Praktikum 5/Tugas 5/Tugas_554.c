@@ -4,7 +4,10 @@ int main(){
     int i;
     float celcius, fahrenheit, reamur, kelvin;
 
-    printf("No.\tCelcius\t\tFahrenheit\tReamur\t\tKelvin\n");
+    printf("-------------------------------------------------\n");
+    printf("| No. | Celcius | Fahrenheit  | Reamur | Kelvin |\n");
+    printf("-------------------------------------------------\n");
+
 
     for (i = 1; i <= 11; i++){
         celcius = (i - 1) * 10;
@@ -12,7 +15,8 @@ int main(){
         reamur = celcius * 4 / 5;
         kelvin = celcius + 273;
 
-        printf("%d\t%.2f\t\t%.2f\t\t%.2f\t\t%.2f\n", i, celcius, fahrenheit, reamur, kelvin);
+        printf("| %-2d  |\t%.0f\t| %-3.0f         | %-3.0f    |   %.0f  |\n", i, celcius, fahrenheit, reamur, kelvin);
+        printf("-------------------------------------------------\n");
     }
 
 
