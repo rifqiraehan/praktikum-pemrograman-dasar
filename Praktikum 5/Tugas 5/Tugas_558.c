@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    float n, nilai, max, min, average;
+    float n, nilai, max, min, sum, average;
 
     printf("Masukkan banyaknya data nilai = ");
     scanf("%f", &n);
@@ -21,12 +21,14 @@ int main(){
             }
         }
 
-        average += nilai;
+        sum += nilai;
     }
+
+    average = sum / n;
 
     printf("Nilai terbesar adalah = %.2f\n", max);
     printf("Nilai terkecil adalah = %.2f\n", min);
-    printf("Nilai rata-rata nya adalah = %.2f\n", average / n);
+    printf("Nilai rata-rata nya adalah = %.2f\n", average);
 
     return 0;
 }
