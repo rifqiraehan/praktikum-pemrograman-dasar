@@ -27,9 +27,10 @@ int main() {
         printf("|\n");
     }
 
-     for (j = 1; j <= dashWidth; j++) {
+    for (j = 1; j <= dashWidth; j++) {
         printf("-");
     }
+    
     printf("\n");
 
     return 0;
