@@ -1,30 +1,27 @@
 #include <stdio.h>
 
-int permutation(int n, int r){
-    int result = 1;
-
-    for(int i = 0; i < r; i++){
-        result *= n;
-        n--;
+int factorial(int num) {
+    if (num == 0) {
+        return 1;
+    } else {
+        return num * factorial(num - 1);
     }
-
-    return result;
 }
 
-int combination(int n, int r){
-    int result = 1;
-
-    for(int i = 0; i < r; i++){
-        result *= n;
-        n--;
+int permutation(int n, int r) {
+    if (n < r) {
+        return 0;
     }
 
-    for(int i = 0; i < r; i++){
-        result /= r;
-        r--;
+    return factorial(n) / factorial(n - r);
+}
+
+int combination(int n, int r) {
+    if (n < r) {
+        return 0;
     }
 
-    return result;
+    return factorial(n) / (factorial(r) * factorial(n - r));
 }
 
 int main(){
