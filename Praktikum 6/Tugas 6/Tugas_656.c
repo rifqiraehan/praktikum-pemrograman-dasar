@@ -1,36 +1,36 @@
 #include <stdio.h>
-#include <time.h>
+#include <sys/time.h>
 
 int main(){
     register int i;
     int j;
 
-    clock_t start, end;
+    struct timeval start, end;
     double cpu_time_used;
 
-    start = clock();
+    gettimeofday(&start, NULL); // Waktu awal
 
-    for(i = 0; i < 1000; i++){
-        printf("%d\n", i);
+    for(i = 0; i < 1000000; i++){
+        i++;
     }
 
-    end = clock();
+    gettimeofday(&end, NULL); // Waktu akhir
 
-    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    cpu_time_used = (end.tv_sec - start.tv_sec) + ((end.tv_usec - start.tv_usec) / 1000000.0);
 
-    printf("Time taken by register variable: %f\n", cpu_time_used);
+    printf("Waktu yang diperlukan untuk variabel register: %f detik\n", cpu_time_used);
 
-    start = clock();
+    gettimeofday(&start, NULL); // Waktu awal
 
-    for(j = 0; j < 1000; j++){
-        printf("%d\n", j);
+    for(j = 0; j < 1000000; j++){
+        j++;
     }
 
-    end = clock();
+    gettimeofday(&end, NULL); // Waktu akhir
 
-    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+    cpu_time_used = (end.tv_sec - start.tv_sec) + ((end.tv_usec - start.tv_usec) / 1000000.0);
 
-    printf("Time taken by integer variable: %f\n", cpu_time_used);
+    printf("Waktu yang diperlukan untuk variabel integer: %f detik\n", cpu_time_used);
 
     return 0;
 }
