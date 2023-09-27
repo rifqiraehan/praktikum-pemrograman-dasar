@@ -34,3 +34,8 @@ int main(){
 
     return 0;
 }
+
+/*
+Catatan Rifqi Raehan:
+File header sys/time.h menyediakan fungsi untuk mendapatkan waktu prosesor, seperti gettimeofday(). Fungsi ini mengembalikan nilai waktu dalam format struct timeval, yang memiliki dua anggota, yaitu tv_sec dan tv_usec. tv_sec menyimpan waktu dalam detik, sedangkan tv_usec menyimpan waktu dalam mikrodetik. Jika ingin mengukur waktu sistem, dapat menggunakan file header time.h dan fungsi time() atau localtime(). Namun, jika ingin mengukur waktu prosesor, harus menggunakan file header sys/time.h dan fungsi gettimeofday().
+*/
