@@ -30,8 +30,8 @@ int main() {
     // Deret Bilangan 3
     n = 5;
 
-    for (int i = 1; i <= n; i++) {
-        int value = i * i * i; 
+    for (i = 1; i <= n; i++) {
+        value = i * i * i;
         printf("%d", value);
 
         if (i < n) {
