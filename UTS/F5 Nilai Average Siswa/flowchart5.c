@@ -1,4 +1,5 @@
 /* Program yang menentukan nilai rata-rata siswa. */
+
 #include <stdio.h>
 
 int main(){

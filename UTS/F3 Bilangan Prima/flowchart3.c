@@ -1,3 +1,5 @@
+/* Program yang mencetak Bilangan Bilangan Prima */
+
 #include <stdio.h>
 
 int main(){
