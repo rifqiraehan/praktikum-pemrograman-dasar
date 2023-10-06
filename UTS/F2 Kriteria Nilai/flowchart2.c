@@ -1,4 +1,4 @@
-/* Program yang menentukan tahun kabisat dari input tahun yang dimasukkan user. */
+/* Program yang menentukan kriteria nilai dari input nilai yang dimasukkan user. */
 
 #include <stdio.h>
 
