@@ -12,7 +12,7 @@ Analisa UTS:
 Kode program tersebut menerima input karakter dari pengguna. Karakter yang dimasukkan harus berupa karakter ASCII. Setelah karakter yang dimasukkan valid, maka program akan menentukan karakter tersebut termasuk dalam kelompok apa. Kelompok karakter tersebut ditentukan berdasarkan nilai ASCII dari karakter tersebut.
 Analisa Flowchart 2:
 •	Pertama, user memasukkan data berupa nilai.
-•	Jika nilai yang dimasukkan berada di luar rentang 0 hingga 100, maka user akan mendapatkan peringatan bahwa nilai berada di luar jangkauan dan kembali ke awal untuk memasukkan data yang sesuai dengan rentang. Jika tidak, lanjut di pengkondisian selanjutnya.
+•	Jika nilai yang dimasukkan berada di luar rentang 0 hingga 100, maka user akan mendapatkan peringatan bahwa nilai berada di luar jangkauan dan kembali ke awal untuk memasukkan data yang sesuai dengan rentang.
 •	Jika nilai yang dimasukkan berada pada rentang 81 - 100, program akan menampilkan nilai termasuk A.
 •	Jika nilai yang dimasukkan berada pada rentang 71 - 80, program akan menampilkan nilai termasuk AB.
 •	Jika nilai yang dimasukkan berada pada rentang 66 - 70, program akan menampilkan nilai termasuk B.
@@ -28,11 +28,13 @@ Analisa Flowchart 3:
 •	Pertama, user memasukkan data berupa j sebagai nilai maksimal bilangan prima.
 •	Program akan memulai dari bilangan prima pertama, yaitu 2. Kemudian, memeriksa apakah bilangan yang sedang diperiksa kurang dari atau sama dengan nilai maksimal.
 •	Variabel prima diinisialisasi dengan nilai awal 1.
-•	Program melakukan perulangan dari bilangan 2 hingga bilangan yang sedang diperiksa dikurangi 1
-•	Jika bilangan yang sedang diperiksa merupakan bilangan prima, maka variabel prima akan tetap bernilai 1 setelah perulangan for selesai.
+•	Program mengulangi semua bilangan dari 2 sampai dengan bilangan yang sedang diperiksa (i) untuk memeriksa apakah bilangan yang sedang diperiksa (i) habis dibagi dengan penghitung perulangan (k).
+•	Jika bilangan saat ini yang sedang diperiksa habis dibagi dengan penghitung perulangan saat ini, maka bilangan saat ini bukan bilangan prima dan variabel prima diset ke 0.
+•	Program memeriksa apakah variabel prima masih sama dengan 1. Jika variabel prima sama dengan 1, maka bilangan yang sedang diperiksa adalah bilangan prima dan program mencetak bilangan tersebut
 •	Selesai.
 Analisa UTS:
 Kode program tersebut menampilkan semua bilangan prima hingga nilai maksimal yang ditentukan oleh pengguna. Pertama, program menerima input nilai maksimal dari pengguna. Nilai maksimal tersebut akan menjadi batas atas perulangan. Kemudian, program mulai dari bilangan prima pertama, yaitu 2. Program akan memeriksa apakah bilangan tersebut merupakan bilangan prima. Untuk memeriksa apakah bilangan tersebut merupakan bilangan prima, program akan mengulang dari bilangan 2 hingga bilangan tersebut dikurangi 1. Jika bilangan tersebut habis dibagi oleh salah satu bilangan tersebut, maka bilangan tersebut bukan merupakan bilangan prima. Jika bilangan tersebut merupakan bilangan prima, maka program akan menampilkan bilangan tersebut. Perulangan akan terus berjalan hingga bilangan tersebut mencapai nilai maksimal.
+
 Analisa Flowchart 4:
 •	Pertama, user memasukkan data berupa tahun.
 •	Jika tahun habis dibagi 400, maka tahun tersebut adalah tahun kabisat.
@@ -41,8 +43,8 @@ Analisa Flowchart 4:
 •	Jika bukan dari ketiga kondisi tesebut, maka tahun tersebut bukan tahun kabisat.
 •	Selesai.
 Analisa UTS:
-Kode program tersebut menentukan apakah suatu tahun merupakan tahun kabisat atau bukan. Pertama, program menerima input tahun dari pengguna. Kemudian, program akan memeriksa apakah tahun tersebut habis dibagi 400. Jika ya, maka tahun tersebut merupakan tahun kabisat. Jika tahun tersebut tidak habis dibagi 400, maka program akan memeriksa apakah tahun tersebut habis dibagi 100. Jika ya, maka tahun tersebut bukan tahun kabisat. Jika tahun tersebut tidak habis dibagi 100, maka program akan memeriksa apakah tahun tersebut habis dibagi 4. Jika ya, maka program akan memeriksa apakah tahun tersebut tidak habis dibagi 100. Jika ya, maka tahun tersebut merupakan tahun kabisat. Jika tahun tersebut tidak habis dibagi 4, maka tahun tersebut bukan tahun kabisat.
- 
+Kode program tersebut menentukan apakah suatu tahun merupakan tahun kabisat atau bukan. Pertama, program menerima input tahun dari pengguna. Kemudian, program akan memeriksa apakah tahun tersebut habis dibagi 400. Jika ya, maka tahun tersebut merupakan tahun kabisat. Jika tahun tersebut tidak habis dibagi 400, maka program akan memeriksa apakah tahun tersebut habis dibagi 100. Jika ya, maka tahun tersebut bukan tahun kabisat. Jika tahun tersebut tidak habis dibagi 100, maka program akan memeriksa apakah tahun tersebut habis dibagi 4. Jika ya, maka program akan memeriksa apakah tahun tersebut tidak habis dibagi 100. Jika ya, maka tahun tersebut merupakan tahun kabisat. Jika tahun tersebut tidak habis dibagi 4, maka tahun tersebut bukan tahun kabisat. 
+
 Analisa Flowchart 5:
 •	Pertama, Variabel nilai dan total diinisialisasi dengan nilai awal 0.
 •	Selanjutnya, user memasukkan data berupa n sebagai banyaknya nilai yang ingin dimasukkan dan akan menjadi batas atas perulangan.
@@ -52,6 +54,7 @@ Analisa Flowchart 5:
 •	Selesai.
 Analisa UTS:
 Kode program tersebut menghitung nilai rata-rata dari sejumlah nilai yang dimasukkan oleh pengguna. Pertama, program menerima input jumlah nilai dari pengguna. Jumlah nilai tersebut akan menjadi batas atas perulangan. Kemudian, program akan mengulang dari 1 hingga jumlah nilai. Pada setiap iterasi, program akan meminta pengguna untuk memasukkan nilai. Nilai tersebut akan ditambahkan ke variabel total. Setelah semua nilai dimasukkan, program akan menghitung nilai rata-rata dengan membagi total nilai dengan jumlah nilai. Terakhir, program akan menampilkan nilai rata-rata.
+
 Analisa Flowchart 6:
 •	Pertama, user memasukkan data berupa angka.
 •	Jika angka yang dimasukkan kurang dari 0, maka program akan menampilkan pesan kesalahan dan meminta pengguna untuk memasukkan angka lagi.
