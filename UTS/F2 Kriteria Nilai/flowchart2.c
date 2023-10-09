@@ -14,19 +14,19 @@ int main(){
         }
     } while (nilai < 0 || nilai > 100);
 
-    if (nilai >= 81 && nilai <= 100) {
+    if (nilai >= 81) {
         printf("Nilai %d termasuk A\n", nilai);
-    } else if (nilai >= 71 && nilai <= 80) {
+    } else if (nilai >= 71) {
         printf("Nilai %d termasuk AB\n", nilai);
-    } else if (nilai >= 66 && nilai <= 70) {
+    } else if (nilai >= 66) {
         printf("Nilai %d termasuk B\n", nilai);
-    } else if (nilai >= 61 && nilai <= 65) {
+    } else if (nilai >= 61) {
         printf("Nilai %d termasuk BC\n", nilai);
-    } else if (nilai >= 56 && nilai <= 60) {
+    } else if (nilai >= 56) {
         printf("Nilai %d termasuk C\n", nilai);
-    } else if (nilai >= 41 && nilai <= 55) {
+    } else if (nilai >= 41) {
         printf("Nilai %d termasuk D\n", nilai);
-    } else if (nilai >= 0 && nilai <= 40) {
+    } else {
         printf("Nilai %d termasuk E\n", nilai);
     }
 
