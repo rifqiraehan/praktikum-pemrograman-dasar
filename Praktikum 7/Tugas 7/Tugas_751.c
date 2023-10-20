@@ -10,7 +10,6 @@ int main(){
         scanf("%d", &data[i]);
     }
 
-    printf("\nList data dengan urutan Ascending sebagai berikut:\n");
     for (i = 0; i < n; i++) {
         for (j = i + 1; j < n; j++) {
             if (data[i] > data[j]) {
@@ -21,6 +20,8 @@ int main(){
 
         }
     }
+    
+    printf("\nList data dengan urutan Ascending sebagai berikut:\n");
 
     for (i = 0; i < n; i++) {
         printf("%d\n", data[i]);
