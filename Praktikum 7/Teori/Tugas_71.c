@@ -73,7 +73,7 @@ int main(){
     printf("\n\nNilai rata-rata dari array adalah %.2lf\n", (float) sum / 16);
 
 
-    // Menampilkan median dari array
+    // Menampilkan nilai tengah dari array
     float median;
     if (16 % 2 == 0){
         median = (data2[7] + data2[8]) / 2.0;
@@ -81,7 +81,7 @@ int main(){
         median = data2[8];
     }
 
-    printf("\nNilai median dari array adalah %.2lf\n", median);
+    printf("\nNilai tengah dari array adalah %.2lf\n", median);
 
 
     return 0;
