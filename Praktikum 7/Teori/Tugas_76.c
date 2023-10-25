@@ -38,9 +38,6 @@ Cara Input:
 Masukkan tanggal (dd-mm-yy): 26-10-23
 Tanggal tersebut adalah hari Kamis dan pasaran Kliwon.
 
-Catatan:
-Ada tahun tertentu yang tidak benar atau tidak jelas harinya, sehingga daripada menuliskan tahun dengan disingkat dengan dua digit, maka tulis tahun secara lengkap, misal: 22 jadi 2022. Jika ingin lebih aman lagi gunakan tahun 23 di bulan ini.
-
 Referensi jika ingin mencari hari pasaran:
 https://www.kompiwin.com/kalender-jawa/
 */
