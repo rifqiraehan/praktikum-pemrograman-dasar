@@ -2,7 +2,6 @@
 
 int main(){
     int kodeBulan[12] = {1||0, 4||3, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6};
-    int kodeHari[7] = {0, 1, 2, 3, 4, 5, 6};
     int tanggal, bulan, tahun, hari;
     printf("Masukkan tanggal (dd-mm-yy): ");
     scanf("%d-%d-%d", &tanggal, &bulan, &tahun);
