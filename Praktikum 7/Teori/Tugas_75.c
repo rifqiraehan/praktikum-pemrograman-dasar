@@ -11,27 +11,13 @@ int main(){
 
     printf("Tanggal tersebut adalah hari ");
     switch (hari) {
-        case 0:
-            printf("Sabtu");
-            break;
-        case 1:
-            printf("Minggu");
-            break;
-        case 2:
-            printf("Senin");
-            break;
-        case 3:
-            printf("Selasa");
-            break;
-        case 4:
-            printf("Rabu");
-            break;
-        case 5:
-            printf("Kamis");
-            break;
-        case 6:
-            printf("Jumat");
-            break;
+        case 0: printf("Sabtu"); break;
+        case 1: printf("Minggu"); break;
+        case 2: printf("Senin"); break;
+        case 3: printf("Selasa"); break;
+        case 4: printf("Rabu"); break;
+        case 5: printf("Kamis"); break;
+        case 6: printf("Jumat"); break;
     }
     printf(".\n");
 
