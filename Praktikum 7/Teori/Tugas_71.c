@@ -13,8 +13,8 @@ int main(){
         printf("\n");
     }
 
-    // Menampilkan Data Array Ganjil
-    printf("\nData Ganjil:\n");
+    // Menampilkan Data Array Genap
+    printf("\nData Genap:\n");
     for (int i = 0; i < 2; ++i){
         for (int j = 0; j < 8; ++j){
             if (data[i][j] % 2 != 1)
