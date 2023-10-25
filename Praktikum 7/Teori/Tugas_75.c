@@ -23,3 +23,10 @@ int main(){
 
     return 0;
 }
+
+/*
+Cara Input:
+Masukkan tanggal yang dimulai dari tahun 1900 (00) sampai dengan 1999 (99).
+Masukkan tanggal (dd-mm-yy): 17-08-45
+Tanggal tersebut adalah hari Jumat.
+*/

@@ -32,3 +32,10 @@ int main(){
     printf(".\n");
     return 0;
 }
+
+/*
+Cara Input:
+Masukkan tanggal (dd-mm-yy): 26-10-23
+Tanggal tersebut adalah hari Kamis dan pasaran Kliwon.
+*/
+
