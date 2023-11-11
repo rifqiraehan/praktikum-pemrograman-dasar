@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * Buatlah program untuk menentukan selisih antara dua tanggal yang berbeda, dimana kedua tanggal tersebut dimasukkan melalui keyboard. Gunakan struktur tanggal, untuk menyimpan kedua tanggal tersebut, kemudian hitunglah selisihnya.
+ * Contoh hasil:
+ * Tanggal 1: 26-11-2023
+ * Tanggal 2: 30-11-2023
+ * Selisih Tanggal: 4 Hari
+*/
+
 struct date {
     int tanggal;
     int bulan;
@@ -11,7 +19,7 @@ int main(){
     struct date tgl_1, tgl_2, selisih;
 
     int static jmlHari[12] = {
-        31, 28, 31, 30, 31, 30, 1, 31, 30, 31, 30, 31
+        31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
     };
 
     int valid_tgl = 0;
